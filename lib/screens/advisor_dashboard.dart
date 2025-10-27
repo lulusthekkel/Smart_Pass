@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
-import 'widgets/class_advisor_page.dart';
+import '../screens/batch_selection_page.dart';
+
 
 class AdvisorDashboard extends StatefulWidget {
   const AdvisorDashboard({super.key});
@@ -14,7 +14,7 @@ class _AdvisorDashboardState extends State<AdvisorDashboard> {
 
   // pages available for advisor
   final List<Widget> _pages = [
-    const ClassAdvisorPage(), // this will show the student list page
+    const BatchSelectionPage(), // this will show the student list page
     const Center(child: Text('Approvals Section (Coming Soon)')),
     const Center(child: Text('Profile Page (Coming Soon)')),
   ];
