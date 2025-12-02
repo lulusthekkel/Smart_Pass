@@ -19,7 +19,7 @@ Future<void> main() async {
 }
 
 class SmartPassApp extends StatelessWidget {
-  const SmartPassApp({super.key});
+  const SmartPassApp({super.key});   
 
   @override
   Widget build(BuildContext context) {
